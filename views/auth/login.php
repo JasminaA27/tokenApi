@@ -13,7 +13,7 @@ include __DIR__ . '/../layouts/header.php';
                 <i class="bi bi-shield-lock fs-2 text-white"></i>
             </div>
             <h3 class="mb-1 fw-bold">Bienvenido</h3>
-            <p class="mb-0 opacity-75">Sistema Cliente API</p>
+            <p class="mb-0 opacity-75">Sistema Cliente Token Cliente</p>
         </div>
 
         <!-- Formulario -->
@@ -49,12 +49,12 @@ include __DIR__ . '/../layouts/header.php';
         </div>
 
         <!-- Credenciales de prueba -->
-        <div class="p-3 bg-light rounded-bottom text-center">
+        <!-- <div class="p-3 bg-light rounded-bottom text-center">
             <small class="text-muted">
                 <strong>Credenciales de prueba:</strong><br>
                 Usuario: admin | Contraseña: admin123
             </small>
-        </div>
+        </div>-->
     </div>
 </div>
 
