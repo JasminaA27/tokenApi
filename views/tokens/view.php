@@ -78,25 +78,6 @@
                 </div>
             </div>
 
-            <div class="card mt-3">
-                <div class="card-header">
-                    <h5 class="card-title mb-0">Información</h5>
-                </div>
-                <div class="card-body">
-                    <div class="mb-2">
-                        <small class="text-muted">Creado:</small>
-                        <div class="fw-semibold">Fecha no disponible</div>
-                    </div>
-                    <div class="mb-2">
-                        <small class="text-muted">Última modificación:</small>
-                        <div class="fw-semibold">Fecha no disponible</div>
-                    </div>
-                    <div>
-                        <small class="text-muted">Estado:</small>
-                        <span class="badge bg-success">Activo</span>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
