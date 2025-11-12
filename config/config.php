@@ -3,11 +3,11 @@
 const BD_HOST = 'localhost';
 const BD_NAME = 'cliente_api';
 const BD_USER = 'root';
-const BD_PASSWORD = 'root';
+const BD_PASSWORD = '';
 const BD_CHARSET = 'utf8';
 
 // URLs del proyecto
-const BASE_URL = 'http://localhost:8888/tokenApi/';
+const BASE_URL = 'http://localhost/tokenApi/';
 
 // Configuración de sesiones
 ini_set('session.cookie_httponly', 1);
