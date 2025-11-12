@@ -7,7 +7,7 @@ class RecreoApiModel {
 
     public function __construct() {
         $this->apiBase = 'http://localhost/RecreoHuanta/index.php';
-        $this->apiToken = 'e6e8bfd763ab3273e50f847abae929ab11984d7987a759caee32bb8a8d34129e_20251104_1';
+        $this->apiToken = '7ed5be94b77a9d33f5d4e5d2c99703504eb108cdb6d65c87ea1962917fcb63bb_20251021_2';
     }
 
     private function callApi($endpoint, $params = []) {
