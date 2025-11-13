@@ -3,6 +3,10 @@
 <div class="container-fluid">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1 class="h3 mb-0">Gestión de Tokens API</h1>
+        <!-- BOTÓN PARA REDIRIGIR A RECREOAPI -->
+        <a href="<?php echo BASE_URL; ?>recreoapi/" class="btn btn-success">
+            <i class="bi bi-arrow-right-circle me-1"></i> Ir a Recreo API
+        </a>
     </div>
 
     <div class="card">
@@ -14,6 +18,9 @@
                 <div class="text-center py-4">
                     <i class="bi bi-key fs-1 text-muted d-block mb-2"></i>
                     <p class="text-muted">No hay tokens registrados en la base de datos.</p>
+                    <a href="?action=tokens&method=edit" class="btn btn-primary">
+                        <i class="bi bi-plus-circle me-1"></i> Agregar Token
+                    </a>
                 </div>
             <?php else: ?>
                 <div class="table-responsive">

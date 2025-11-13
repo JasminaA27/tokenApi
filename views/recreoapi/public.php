@@ -358,7 +358,7 @@ function obtenerServicios($recreo) {
 
     <!-- Footer -->
     <footer class="footer-custom text-center py-4 mt-5">
-        <p class="mb-0">© 2024 API Recreos Huanta - Sistema Oficial de Directorio Recreativo</p>
+        <p class="mb-0">© 2024 API Recreos Huanta - Sistema Oficial</p>
     </footer>
 
     <!-- Bootstrap JS -->

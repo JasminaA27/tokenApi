@@ -8,7 +8,7 @@ class ApiConsume {
     private $tokenModel;
 
     public function __construct() {
-        $this->apiBase = 'http://localhost:8888/RecreoHuanta/index.php';
+        $this->apiBase = 'http://localhost/recreohuanta/index.php';
         $this->tokenModel = new TokenModel();
     }
 
