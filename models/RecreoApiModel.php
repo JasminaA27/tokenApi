@@ -7,7 +7,7 @@ class RecreoApiModel {
     private $tokenModel;
 
     public function __construct() {
-        $this->apiBase = 'http://localhost/RecreoHuanta/index.php';
+        $this->apiBase = 'https://recreoshuanta.serviciosvirtuales.com.pe/index.php';
         $this->tokenModel = new TokenModel();
     }
 
